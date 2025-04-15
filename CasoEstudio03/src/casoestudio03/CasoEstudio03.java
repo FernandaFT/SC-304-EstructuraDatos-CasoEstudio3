@@ -39,7 +39,7 @@ public class CasoEstudio03 {
        ArrayList<Integer> numImpares = arbol.obtenerNodosImpar();
        System.out.println("Los nodos impars del árbol son: ");
        for(int impar : numImpares){
-           System.out.println(impar + " ");
+           System.out.println(impar);
        }
        
        //Grafo BPM (Business Process Management)
@@ -52,7 +52,7 @@ public class CasoEstudio03 {
        bpm.insertarNodo("Aprobar solicitud", "Jefe");
        bpm.insertarNodo("Terminar", "NA");
        
-       //iii.nicialice la matriz de adyacencia.
+       //iii.Inicialice la matriz de adyacencia.
        bpm.agregarAristaAccion(0, 1, "Avanzar");
        bpm.agregarAristaAccion(1, 2, "Continuar");
        bpm.agregarAristaAccion(2, 3, "Continuar");
