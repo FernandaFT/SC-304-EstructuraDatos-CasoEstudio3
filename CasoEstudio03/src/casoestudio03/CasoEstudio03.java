@@ -60,6 +60,8 @@ public class CasoEstudio03 {
        
        //iv.Imprima la matriz de adyacencia.
        bpm.imprimirMatrizAdyacencia();
+       
+       //v.Invoque un método de recorrido para imprimir la información de los nodos 
        bpm.imprimirNodos();
     }
     
